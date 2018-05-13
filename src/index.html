@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CIPLAB_Segmentation</title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+<div class="main-body">
+    <canvas id="segmentCanvas" class="segment-canvas"></canvas>
+</div>
+<div class="sidebar-menu">
+    <h3 class="sidebar-header">Segmentation</h3>
+    <input type="file" multiple id="fileInput" class="segment-file-input"/>
+    <p>
+        <button type="button" class="btn btn-default" id="imageLoadBtn">Load Images</button>
+    </p>
+    <div class="image-list-area" id="imageList">
+        <h4>Load Image First...</h4>
+    </div>
+    <div class="control-btn-area">
+        <button id="saveBtn" class="btn btn-primary">Save</button>
+        <button id="clearBtn" class="btn btn-danger">Clear All</button>
+    </div>
+</div>
+
+<script src="/main.bundle.js"></script>
+</body>
+</html>
